@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::view('/', 'home')->name('home');
+Route::view('/', 'index')->name('index');
 Route::view('quem-somos', 'quem-somos')->name('quem-somos');
 
 // ROTA DE SETORES
