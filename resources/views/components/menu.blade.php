@@ -60,7 +60,7 @@
             <div class="offcanvas-body">
                 <ul class="navbar-nav flex-grow-1 justify-content-between align-items-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('home') }}" aria-label="Aperture">
+                        <a class="nav-link" href="{{ route('index') }}" aria-label="Aperture">
                             <img src="{{ asset('/assets/img/nova_logo.png') }}" class="bi" width="160" aria-hidden="true" alt="Sua Logo">
                         </a>
                     </li>
