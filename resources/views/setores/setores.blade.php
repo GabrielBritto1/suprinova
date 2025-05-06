@@ -11,13 +11,15 @@
                     </p>
                 </div>
             </div>
+        </div>
 
-            <!-- Cards de destaques -->
+        <!-- Cards de destaques -->
+        <div class="row g-4">
             <div class="col-md-4">
                 <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
-                    <a href="#" class="text-decoration-none text-dark">
+                    <a href="{{ route('setores.setorAlimento') }}" class="text-decoration-none text-dark">
                         <div class="card-body">
-                            <h5 class="card-title">Laticínios</h5>
+                            <h5 class="card-title">Alimentos e bebidas</h5>
                         </div>
                         <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
                     </a>
@@ -27,7 +29,7 @@
                 <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
                     <a href="#" class="text-decoration-none text-dark">
                         <div class="card-body">
-                            <h5 class="card-title">Laticínios</h5>
+                            <h5 class="card-title">Farmacêutico</h5>
                         </div>
                         <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
                     </a>
@@ -37,7 +39,7 @@
                 <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
                     <a href="#" class="text-decoration-none text-dark">
                         <div class="card-body">
-                            <h5 class="card-title">Laticínios</h5>
+                            <h5 class="card-title">Restaurantes</h5>
                         </div>
                         <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
                     </a>
@@ -47,7 +49,77 @@
                 <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
                     <a href="#" class="text-decoration-none text-dark">
                         <div class="card-body">
-                            <h5 class="card-title">Laticínios</h5>
+                            <h5 class="card-title">Educação</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Governo</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Asseio e conservação</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestão de instalações</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Varejo</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Saúde</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Hotelaria</h5>
+                        </div>
+                        <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm h-100" style="border: none; border-radius: 0;">
+                    <a href="#" class="text-decoration-none text-dark">
+                        <div class="card-body">
+                            <h5 class="card-title">Lavanderia comercial</h5>
                         </div>
                         <img style="border: none; border-radius: 0;" src="https://disparco.com.br/wp-content/uploads/2023/08/industria-de-laticinio-vapor-scaled.jpg" class="card-img-top" alt="laticinios">
                     </a>

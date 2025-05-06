@@ -70,7 +70,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-style shadow mb-3 bg-body-tertiary rounded">
                             <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="{{ route('setores') }}">Setores</a></li>
-                            <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="#">Alimentos e bebidas</a></li>
+                            <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="{{ route('setores.setorAlimento') }}">Alimentos e bebidas</a></li>
                             <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="#">Farmacêutico</a></li>
                             <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="#">Restaurantes</a></li>
                             <li><a class="dropdown-item dropdown-item item-style text-muted pb-2" href="#">Educação</a></li>
