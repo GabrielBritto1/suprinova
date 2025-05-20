@@ -1,7 +1,7 @@
 <div style="background-color:#f6f6f7" class="mt-3">
     <footer class="container py-5">
         <div class="row">
-            <div class="mb-4 d-flex flex-column justify-content-center col-12 col-md-6">
+            <!-- <div class="mb-4 d-flex flex-column justify-content-center col-12 col-md-6">
                 <h2 class="fw-bold text-dark featured alt">Entre em contato</h2>
                 <p class="text-muted col-4">
                     Deixe seu email e nosso consultor de vendas entrará em contato com você.
@@ -14,7 +14,7 @@
                         </a>
                     </div>
                 </form>
-            </div>
+            </div> -->
             <div class="col-6 col-md">
                 <h5>Setores</h5>
                 <ul class="list-unstyled text-small">
@@ -37,11 +37,11 @@
                     <li><a class="link-secondary text-decoration-none" href="https://app.salsify.com/catalogs/cb45e478-5008-4808-bc89-6b26cfadaf95/products?filter=%3D&page=1" target="_blank">Produtos</a></li>
                 </ul>
             </div>
-            <div class="col-6 col-md">
+            <!-- <div class="col-6 col-md">
                 <h5>Parceiros</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="#">Parceiro 1</a></li>
-            </div>
+                    <li><a class="link-secondary text-decoration-none" href="#">Parceiro</a></li>
+            </div> -->
             <div class="col-6 col-md">
                 <h5>Quem somos</h5>
                 <ul class="list-unstyled text-small">
