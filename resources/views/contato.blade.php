@@ -89,7 +89,9 @@
                </div>
             </form>
          </div>
+      </div>
+   </div>
 
-         @component('components.footer')
-         @endcomponent
+   @component('components.footer')
+   @endcomponent
 </body>

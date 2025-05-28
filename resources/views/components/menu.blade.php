@@ -43,8 +43,54 @@
    </div>
 </div>
 
+<header class="sticky-top top-0 w-100 bg-white shadow-sm" style="z-index: 1000;">
+   <div class="container">
+      <div class="header-container d-flex justify-content-between align-items-center py-2">
+         <div class="logo">
+            <a href="index.html">
+               <img src="{{ asset('assets/img/suprinova_logo.png') }}" class="bi img-fluid" width="150" alt="SUPRINOVA Logo">
+            </a>
+         </div>
+         <nav class="navbar navbar-expand-md d-md-flex">
+            <button class="navbar-toggler" style="border: none;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+               <div class="offcanvas-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+               </div>
+               <div class="offcanvas-body">
+                  <ul class="d-flex list-unstyled m-0 navbar-nav flex-grow-1 justify-content-between align-items-center">
+                     <li class="mx-3 py-3"><a href="{{ route('index') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Home
+                        </a>
+                     </li>
+                     <li class="mx-3 py-3"><a href="{{ route('setores') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Setores
+                        </a>
+                     </li>
+                     <li class="mx-3 py-3"><a href="{{ route('sustentabilidade') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Sustentabilidade
+                        </a>
+                     </li>
+                     <li class="mx-3 py-3"><a href="{{ route('quem-somos') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Sobre Nós
+                        </a>
+                     </li>
+                     <li class="mx-3 py-3"><a href="{{ route('contato') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Contato
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </div>
+</header>
+
 <!-- Navbar -->
-<nav class="navbar navbar-expand-md bg-light sticky-top border-bottom" data-bs-theme="light">
+<!-- <nav class="navbar navbar-expand-md bg-light sticky-top border-bottom" data-bs-theme="light">
    <div class="container">
       <a class="navbar-brand d-md-none" href="#">
          <img src="{{ asset('assets/img/suprinova_logo.png') }}" class="bi img-fluid" width="100" alt="Logo">
@@ -80,43 +126,13 @@
                      <li><a class="dropdown-item dropdown-item item-style text-muted py-3 px-5" href="#">Saúde</a></li>
                      <li><a class="dropdown-item dropdown-item item-style text-muted py-3 px-5" href="#">Hotalaria</a></li>
                      <li><a class="dropdown-item dropdown-item item-style text-muted py-3 px-5" href="#">Lavanderia comercial</a></li>
-                     <!-- Item com submenu (dropend) -->
-                     <!-- <li class="dropdown dropend">
-                                <a href="#" class="dropdown-item dropdown-toggle item-style text-muted pb-2" data-bs-toggle="dropdown">
-                                    Indústria
-                                </a>
-                                <ul class="shadow mb-3 bg-body-tertiary rounded dropdown-menu dropdown-style">
-                                    <li><a class="dropdown-item item-style text-muted pb-2" href="#">Alimentos</a></li>
-                                    <li><a class="dropdown-item item-style text-muted pb-2" href="#">Metalúrgica</a></li>
-                                    <li><a class="dropdown-item item-style text-muted pb-2" href="#">Farmacêutica</a></li>
-                                </ul>
-                            </li> -->
-                     <!-- Mais itens -->
-
                   </ul>
                </div>
-               <!-- VAI FICAR DESATIVADA ATÉ SEGUNDAS ORDENS -->
-               <!-- <div class="dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            Serviços
-                        </a>
-                        <ul class="shadow mb-3 bg-body-tertiary rounded dropdown-menu dropdown-style">
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                            <li><a class="dropdown-item item-style text-muted pb-2" href="#">Serviços</a></li>
-                        </ul>
-                    </div> -->
                <li class="nav-item">
                   <a class="nav-link" href="https://app.salsify.com/catalogs/cb45e478-5008-4808-bc89-6b26cfadaf95/products?filter=%3D&page=1" target="_blank">
                      Produtos
                   </a>
                </li>
-               <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Parceiros</a>
-               </li> -->
                <li class="nav-item">
                   <a class="nav-link" href="{{ route('quem-somos') }}">Quem somos</a>
                </li>
@@ -134,7 +150,7 @@
          </div>
       </div>
    </div>
-</nav>
+</nav> -->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -145,11 +161,47 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
          </div>
          <div class="modal-body">
-            ...
+            <form action="#" method="POST">
+               @csrf
+               <div class="row">
+                  <div class="col">
+                     <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col">
+                     <div class="mb-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input type="text" class="form-control" id="telefone" placeholder="Digite seu telefone">
+                     </div>
+                  </div>
+                  <div class="col">
+                     <div class="mb-3">
+                        <label for="mensagem" class="form-label">Cargo</label>
+                        <input type="text" class="form-control" id="cargo" placeholder="Digite seu cargo">
+                     </div>
+                  </div>
+               </div>
+               <div class="col">
+                  <div class="mb-3">
+                     <label for="mensagem" class="form-label">Nome da empresa</label>
+                     <input type="text" class="form-control" id="nome_empresa" placeholder="Digite o nome da empresa">
+                  </div>
+               </div>
          </div>
          <div class="modal-footer">
-            <button type="button" class="btn btn-primary consultor-btn fw-bold text-uppercase">Enviar</button>
+            <button type="submit" class="btn btn-primary consultor-btn fw-bold text-uppercase">Enviar</button>
          </div>
+         </form>
       </div>
    </div>
 </div>
