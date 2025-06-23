@@ -82,341 +82,58 @@
                </div>
             </div>
          </div>
+
          <div class="sectors-grid d-grid gap-2" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
             <div class="sector-card">
-               <img src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" alt="Alimentos e Bebidas">
+               <img src="{{ asset('assets/img/setor_alimento_miniatura.jpeg') }}" alt="Alimentos e Bebidas">
                <div class="sector-card-content">
-                  <h3>Alimentos e Bebidas</h3>
+                  <h5>Alimentos e Bebidas</h5>
                   <p>Soluções especializadas para CIP, OPC, Caldeiras, Torres de Resfriamento e Tratamentos de Água.</p>
+               </div>
+               <div class="sector-footer d-flex justify-content-center align-items-center pb-3">
                   <a href="#" class="saiba-mais">Saiba Mais</a>
                </div>
             </div>
             <div class="sector-card">
-               <img src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" alt="Tratamento de Águas">
+               <img src="{{ asset('assets/img/setor_agua_miniatura.jpeg') }}" alt="Tratamento de Águas">
                <div class="sector-card-content">
-                  <h3>Tratamento de Águas</h3>
+                  <h5>Tratamento de Águas</h5>
                   <p>Soluções completas para ETA (Estação de Tratamento de Água) e ETE (Estação de Tratamento de
                      Efluentes).</p>
+               </div>
+               <div class="sector-footer d-flex justify-content-center align-items-center pb-3">
                   <a href="#" class="saiba-mais">Saiba Mais</a>
                </div>
             </div>
             <div class="sector-card">
-               <img src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" alt="Hospitalar">
+               <img src="{{ asset('assets/img/setor_hospital_miniatura.jpeg') }}" alt="Hospitalar">
                <div class="sector-card-content">
-                  <h3>Hospitalar</h3>
+                  <h5>Hospitalar</h5>
                   <p>Produtos à base de peróxido de hidrogênio, quaternário de amônio e detergente clorado para
                      ambientes hospitalares.</p>
+               </div>
+               <div class="sector-footer d-flex justify-content-center align-items-center pb-3">
                   <a href="#" class="saiba-mais">Saiba Mais</a>
                </div>
             </div>
             <div class="sector-card">
-               <img src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" alt="Lavanderia Industrial">
+               <img src="{{ asset('assets/img/ChatGPT Image 23 de jun. de 2025, 17_09_25.png') }}" alt="Lavanderia Industrial">
                <div class="sector-card-content">
-                  <h3>Lavanderia Industrial</h3>
+                  <h5>Lavanderia Industrial</h5>
                   <p>Portfólio completo de produtos para todas as necessidades do setor de lavanderia industrial.</p>
+               </div>
+               <div class="sector-footer d-flex justify-content-center align-items-center pb-3">
                   <a href="#" class="saiba-mais">Saiba Mais</a>
                </div>
             </div>
             <div class="sector-card">
-               <img src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" alt="Tratamento de Pisos">
+               <img src="{{ asset('assets/img/setor_piso_miniatura.jpeg') }}" alt="Tratamento de Pisos">
                <div class="sector-card-content">
-                  <h3>Tratamento de Pisos</h3>
-                  <p>Todo o portfólio da Diversey para tratamento e manutenção de pisos em ambientes industriais e
-                     comerciais.</p>
+                  <h5>Tratamento de Pisos</h5>
+                  <p>Todo o portfólio da Diversey para tratamento e manutenção de pisos em ambientes industriais.</p>
+               </div>
+               <div class="sector-footer d-flex justify-content-center align-items-center pb-3">
                   <a href="#" class="saiba-mais">Saiba Mais</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
-   <div class="container">
-      <section class="mt-3 text-white" style="background-image: url('https://d1f2ieqjc8iqzi.cloudfront.net/s3fs-public/2023-03/Diversey%20Optimal%20Hygiene_V3_0.png?VersionId=xi7yer_DJ6vGvcZcaLwXaZbtNICvBbjI'); background-size: cover; background-position: center;">
-         <div class="container-fluid text-white py-5"
-            style="
-               background: linear-gradient(to bottom ,rgba(10, 48, 110, 0.65),  rgba(10, 48, 110, 0.78), rgba(10, 48, 110, 0.9), rgba(10, 48, 110, 0.78),  rgba(10, 48, 110, 0.65));
-               box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-            <div class="row align-items-center text-center text-lg-start">
-
-               <!-- Coluna 1: Imagem dos produtos -->
-               <div class="col-lg-4 mb-4 mb-lg-0">
-                  <img src="{{ asset('assets/img/Banner_home.png') }}" alt="Produtos" class="img-fluid">
-               </div>
-
-               <!-- Coluna 2: Frase destaque -->
-               <div class="col-lg-4 border-start border-end border-white px-4">
-                  <h4 class="fw-bold">Limpeza não é o suficiente</h4>
-               </div>
-
-               <!-- Coluna 3: Texto e botão -->
-               <div class="col-lg-4 px-4">
-                  <p class="mb-3">
-                     Nossa ampla gama de produtos ajuda nossos clientes a proteger seus clientes e o futuro de nosso planeta.
-                  </p>
-                  <a href="https://wa.link/i4wtaf" target="_blank" class="btn btn-outline-light rounded-pill d-inline-flex align-items-center gap-2">
-                     <span class="bg-success rounded-circle d-inline-block" style="width: 10px; height: 10px;"></span>
-                     Entre em contato
-                  </a>
-               </div>
-            </div>
-         </div>
-         <div class="row align-items-center g-4 py-4">
-            <div class="col-lg-7">
-               <div id="carouselSetores2" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                     <!-- Slide 1 -->
-                     <div class="carousel-item active h-100">
-                        <div class="row justify-content-center gap-4">
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Laticínios</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="laticinios">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Frigorífico</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="figrorifico">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-
-                     <!-- Slide 2 -->
-                     <div class="carousel-item h-100">
-                        <div class="row justify-content-center gap-4">
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Laticínios</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Gestão de Instalações">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Frigorífico</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Varejo">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Controles -->
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselSetores2" data-bs-slide="prev">
-                     <span class="carousel-control-prev-icon"></span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselSetores2" data-bs-slide="next">
-                     <span class="carousel-control-next-icon"></span>
-                  </button>
-               </div>
-            </div>
-            <div class="col-lg-5 px-5">
-               <h2 class="fw-bold">Setores Industriais</h2>
-               <p class="lead">
-                  Nossa linha sustentável de soluções foi projetada para atender às necessidades únicas de indústrias e setores, permitindo que líderes e funcionários comprometidos dentro delas, que estão em uma missão de cuidar do que é valioso, tenham acesso a essas soluções.
-               </p>
-            </div>
-         </div>
-      </section>
-   </div>
-
-   <section class="mt-3 text-white" style="background-image: url('https://d1f2ieqjc8iqzi.cloudfront.net/s3fs-public/2023-03/Diversey%20Optimal%20Hygiene_V3_0.png?VersionId=xi7yer_DJ6vGvcZcaLwXaZbtNICvBbjI'); background-size: cover; background-position: center;">
-      <div class="container">
-         <div class="container-fluid text-white py-5"
-            style="
-               background: linear-gradient(to bottom ,rgba(10, 48, 110, 0.65),  rgba(10, 48, 110, 0.78), rgba(10, 48, 110, 0.9), rgba(10, 48, 110, 0.78),  rgba(10, 48, 110, 0.65));
-               box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);">
-            <div class="row align-items-center text-center text-lg-start">
-
-               <!-- Coluna 1: Imagem dos produtos -->
-               <div class="col-lg-4 mb-4 mb-lg-0">
-                  <img src="{{ asset('assets/img/Banner_home.png') }}" alt="Produtos" class="img-fluid">
-               </div>
-
-               <!-- Coluna 2: Frase destaque -->
-               <div class="col-lg-4 border-start border-end border-white px-4">
-                  <h4 class="fw-bold">Limpeza não é o suficiente</h4>
-               </div>
-
-               <!-- Coluna 3: Texto e botão -->
-               <div class="col-lg-4 px-4">
-                  <p class="mb-3">
-                     Nossa ampla gama de produtos ajuda nossos clientes a proteger seus clientes e o futuro de nosso planeta.
-                  </p>
-                  <a href="https://wa.link/i4wtaf" target="_blank" class="btn btn-outline-light rounded-pill d-inline-flex align-items-center gap-2">
-                     <span class="bg-success rounded-circle d-inline-block" style="width: 10px; height: 10px;"></span>
-                     Entre em contato
-                  </a>
-               </div>
-            </div>
-         </div>
-         <div class="row align-items-center g-4 py-4">
-            <div class="col-lg-5 px-5">
-               <h2 class="fw-bold">Setores Industriais</h2>
-               <p class="lead">
-                  Nossa linha sustentável de soluções foi projetada para atender às necessidades únicas de indústrias e setores, permitindo que líderes e funcionários comprometidos dentro delas, que estão em uma missão de cuidar do que é valioso, tenham acesso a essas soluções.
-               </p>
-            </div>
-
-            <div class="col-lg-7">
-               <div id="carouselSetores3" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                     <!-- Slide 1 -->
-                     <div class="carousel-item active h-100">
-                        <div class="row justify-content-center gap-4">
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Laticínios</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="laticinios">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Frigorífico</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="figrorifico">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-
-                     <!-- Slide 2 -->
-                     <div class="carousel-item h-100">
-                        <div class="row justify-content-center gap-4">
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Laticínios</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Gestão de Instalações">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Frigorífico</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Varejo">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="card shadow-sm h-100 bg-dark" style="border: none; border-radius: 0; opacity: 0.9;">
-                                 <a href="#" class="text-decoration-none text-white">
-                                    <div class="card-body">
-                                       <h5 class="card-title">Saúde</h5>
-                                    </div>
-                                    <img style="border: none; border-radius: 0;" src="https://opresenterural.com.br/wp-content/uploads/2024/09/carne-su%C3%ADna-FOTO-SHUTTERSTOCK.jpg" class="card-img-top" alt="Saúde">
-                                 </a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Controles -->
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselSetores3" data-bs-slide="prev">
-                     <span class="carousel-control-prev-icon"></span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselSetores3" data-bs-slide="next">
-                     <span class="carousel-control-next-icon"></span>
-                  </button>
                </div>
             </div>
          </div>
