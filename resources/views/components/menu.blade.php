@@ -4,10 +4,16 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta property="og:title" content="Suprinova">
+   <meta property="og:image" content="/assets/img/suprinova_logo.png">
+   <meta property="og:url" content="https://labmakerifes.com/suprinova/public/">
+   <meta property="og:type" content="website">
    <title>Suprinova</title>
    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="shortcut icon" href="{{ asset('assets/img/suprinova_logo.png') }}" type="image/x-icon">
+
    @vite('resources/js/app.js')
 </head>
 
@@ -47,7 +53,7 @@
    <div class="container">
       <div class="header-container d-flex justify-content-between align-items-center py-2">
          <div class="logo">
-            <a href="index.html">
+            <a href="{{ route('index') }}">
                <img src="{{ asset('assets/img/suprinova_logo.png') }}" class="bi img-fluid" width="150" alt="SUPRINOVA Logo">
             </a>
          </div>
