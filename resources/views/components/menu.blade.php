@@ -8,6 +8,7 @@
    <meta property="og:image" content="/assets/img/suprinova_logo.png">
    <meta property="og:url" content="https://labmakerifes.com/suprinova/public/">
    <meta property="og:type" content="website">
+
    <title>Suprinova</title>
    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/product/">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
@@ -15,6 +16,331 @@
    <link rel="shortcut icon" href="{{ asset('assets/img/suprinova_logo.png') }}" type="image/x-icon">
 
    @vite('resources/js/app.js')
+
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+      :root {
+         --liner-gradient: linear-gradient(to right, #0A306E, #572BFE);
+      }
+
+      * {
+         font-family: 'Roboto', Arial, sans-serif;
+      }
+
+      .bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         user-select: none;
+      }
+
+      @media (min-width: 768px) {
+         .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+         }
+      }
+
+      .b-example-divider {
+         width: 100%;
+         height: 3rem;
+         background-color: rgba(0, 0, 0, .1);
+         border: solid rgba(0, 0, 0, .15);
+         border-width: 1px 0;
+         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+         flex-shrink: 0;
+         width: 1.5rem;
+         height: 100vh;
+      }
+
+      .bi {
+         vertical-align: -.125em;
+         fill: currentColor;
+      }
+
+      .nav-scroller {
+         position: relative;
+         z-index: 2;
+         height: 2.75rem;
+         overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+         display: flex;
+         flex-wrap: nowrap;
+         padding-bottom: 1rem;
+         margin-top: -1px;
+         overflow-x: auto;
+         text-align: center;
+         white-space: nowrap;
+         -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+         --bd-violet-bg: #712cf9;
+         --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+         --bs-btn-font-weight: 600;
+         --bs-btn-color: var(--bs-white);
+         --bs-btn-bg: var(--bd-violet-bg);
+         --bs-btn-border-color: var(--bd-violet-bg);
+         --bs-btn-hover-color: var(--bs-white);
+         --bs-btn-hover-bg: #6528e0;
+         --bs-btn-hover-border-color: #6528e0;
+         --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+         --bs-btn-active-color: var(--bs-btn-hover-color);
+         --bs-btn-active-bg: #5a23c8;
+         --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+         z-index: 1500;
+      }
+
+      .bd-mode-toggle .bi {
+         width: 1em;
+         height: 1em;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+         display: block !important;
+      }
+
+      .icon-link>.bi {
+         width: .75em;
+         height: .75em;
+      }
+
+      .site-header {
+         background-color: rgba(0, 0, 0, .85);
+         -webkit-backdrop-filter: saturate(180%) blur(20px);
+         backdrop-filter: saturate(180%) blur(20px);
+      }
+
+      .site-header a {
+         color: #8e8e8e;
+         transition: color .15s ease-in-out;
+      }
+
+      .site-header a:hover {
+         color: #fff;
+         text-decoration: none;
+      }
+
+      .flex-equal>* {
+         flex: 1;
+      }
+
+      @media (min-width: 768px) {
+         .flex-md-equal>* {
+            flex: 1;
+         }
+      }
+
+      .dropdown:hover .dropdown-menu {
+         display: block;
+         margin-top: 0;
+      }
+
+      .dropdown-toggle::after {
+         transition: transform 0.15s ease-in-out;
+      }
+
+      .topbar {
+         background: var(--liner-gradient);
+         font-size: 0.9rem;
+      }
+
+      .consultor-btn {
+         /* background: linear-gradient(to right, #5536ff, #4a25aa); */
+         background: var(--liner-gradient);
+         color: #fff;
+         border-radius: 50px !important;
+         padding: 10px 20px !important;
+         border: none !important;
+
+         &:hover {
+            scale: 1.05;
+            transition: all 0.1s ease-in-out;
+         }
+
+         &:active {
+            scale: 0.95;
+            transition: all 0.1s ease-in-out;
+         }
+      }
+
+      .btn-pagina:hover {
+         scale: 1.05;
+         transition: all 0.1s ease-in-out;
+
+         &:active {
+            scale: 1;
+            transition: all 0.1s ease-in-out;
+         }
+      }
+
+      .btn-consultor {
+         border: #212529 1px solid !important;
+
+         &:hover {
+            background: transparent !important;
+            border: #212529 1px solid !important;
+            color: #212529 !important;
+            scale: 1.05;
+            transition: all 0.1s ease-in-out;
+
+            &:active {
+               scale: 1;
+               transition: all 0.1s ease-in-out;
+            }
+         }
+      }
+
+      .dropdown-style {
+         border: none !important;
+
+         & .item-style:hover {
+            background-color: #f6f6f7 !important;
+            color: #5635ff !important;
+            transition: all 0.3s ease-in-out;
+         }
+      }
+
+      /* Transição base */
+      .dropdown-menu .dropdown-menu {
+         /* opacity: 0;
+    visibility: hidden; */
+         transition: opacity 0.3s ease, visibility 0.3s ease;
+      }
+
+      /* Telas grandes (hover habilitado) */
+      @media (min-width: 992px) {
+         .dropdown:hover>.dropdown-menu {
+            display: block !important;
+            opacity: 1;
+            visibility: visible;
+         }
+
+         .dropdown-menu .dropend:hover>.dropdown-menu {
+            display: block !important;
+            position: absolute;
+            top: 0;
+            left: 100%;
+            margin-top: 0;
+            opacity: 1;
+            visibility: visible;
+         }
+
+         /* Esconde o submenu até hover */
+         .dropdown-menu .dropdown-menu {
+            display: block !important;
+            /* mantém renderizado para usar opacity */
+            opacity: 0;
+            visibility: hidden;
+         }
+      }
+
+      h2.featured:before {
+         content: "";
+         display: block;
+         width: 50px;
+         height: 5px;
+         background: var(--liner-gradient);
+         margin-bottom: 10px;
+      }
+
+      .enviar-contato:hover {
+         scale: 1.05;
+         transition: all 0.1s ease-in-out;
+      }
+
+      .carousel-inner .carousel-item>.row {
+         display: flex;
+      }
+
+      .carousel-item img {
+         opacity: 0.8;
+         transition: transform 0.5s ease, opacity 0.5s ease;
+      }
+
+      .carousel-item img:hover {
+         opacity: 1;
+      }
+
+      nav ul li a:hover {
+         color: #7c7c7c !important;
+      }
+
+      nav ul li a::after {
+         content: '';
+         position: absolute;
+         width: 0;
+         height: 2px;
+         bottom: 0;
+         left: 0;
+         background-color: #7c7c7c;
+         transition: width 0.3s;
+      }
+
+      nav ul li a:hover::after {
+         width: 100%;
+      }
+
+      .sector-card {
+         background-color: #ffffff;
+         border-radius: 5px;
+         overflow: hidden;
+         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+         transition: transform 0.3s, box-shadow 0.3s;
+      }
+
+      .sector-card:hover {
+         transform: translateY(-10px);
+         box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+      }
+
+      .sector-card img {
+         width: 100%;
+         height: 200px;
+         object-fit: cover;
+      }
+
+      .sector-card-content {
+         padding: 20px;
+      }
+
+      .sector-card h5 {
+         color: #003366;
+         font-weight: bold;
+         text-align: center;
+         margin-bottom: 10px;
+      }
+
+      .sector-card p {
+         margin-bottom: 15px;
+         color: #333333;
+      }
+
+      .saiba-mais {
+         display: inline-block;
+         background-color: #003366;
+         color: #ffffff;
+         padding: 10px 20px;
+         border-radius: 5px;
+         text-decoration: none;
+         font-weight: 500;
+         transition: background-color 0.3s;
+      }
+
+      .saiba-mais:hover {
+         background-color: #0066cc;
+      }
+   </style>
 </head>
 
 <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
