@@ -5,8 +5,8 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta property="og:title" content="Suprinova">
-   <meta property="og:image" content="/assets/img/suprinova_logo.png">
-   <meta property="og:url" content="https://labmakerifes.com/suprinova/public/">
+   <meta property="og:image" content="assets/img/suprinova_logo.png">
+   <meta property="og:url" content="https://labmakerifes.com/suprinova/public/assets/img/suprinova_logo.png">
    <meta property="og:type" content="website">
 
    <title>Suprinova</title>
