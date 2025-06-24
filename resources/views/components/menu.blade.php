@@ -363,14 +363,14 @@
       <div class="d-none d-md-flex flex-wrap gap-3">
          <span><i class="bi bi-telephone"></i> (99) 99999-9999</span>
          <span><i class="bi bi-whatsapp"></i> (99) 99999-9999</span>
-         <span><i class="bi bi-envelope"></i> contato@sistemavitrine.com.br</span>
+         <span><i class="bi bi-envelope"></i> rh@suprinova.com.br</span>
       </div>
 
       <!-- Redes sociais -->
       <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end gap-4">
          <a href="https://www.instagram.com/suprinova.es?igsh=MXd2Z2hndXAwYjhhbQ==" target="_blank" class="text-white"><i class="bi bi-instagram fs-6"></i></a>
-         <a href="#" class="text-white"><i class="bi bi-linkedin fs-6"></i></a>
-         <a href="#" class="text-white"><i class="bi bi-facebook fs-6"></i></a>
+         <!-- <a href="#" class="text-white"><i class="bi bi-linkedin fs-6"></i></a>
+         <a href="#" class="text-white"><i class="bi bi-facebook fs-6"></i></a> -->
       </div>
    </div>
 </div>
@@ -399,6 +399,10 @@
                      </li>
                      <li class="mx-3 py-3"><a href="{{ route('setores') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
                            Setores
+                        </a>
+                     </li>
+                     <li class="mx-3 py-3"><a href="https://app.salsify.com/catalogs/cb45e478-5008-4808-bc89-6b26cfadaf95/products?filter=%3D&page=1" target="_blank" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">
+                           Produtos
                         </a>
                      </li>
                      <li class="mx-3 py-3"><a href="{{ route('sustentabilidade') }}" class="text-decoration-none position-relative" style="font-weight: 500 !important; transition: color 0.3s; color: #003366; padding: 10px 0;">

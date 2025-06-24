@@ -1,7 +1,7 @@
 <div style="background-color:#f6f6f7" class="mt-3">
-    <footer class="container py-5">
-        <div class="row">
-            <!-- <div class="mb-4 d-flex flex-column justify-content-center col-12 col-md-6">
+   <footer class="container py-5">
+      <div class="row">
+         <!-- <div class="mb-4 d-flex flex-column justify-content-center col-12 col-md-6">
                 <h2 class="fw-bold text-dark featured alt">Entre em contato</h2>
                 <p class="text-muted col-4">
                     Deixe seu email e nosso consultor de vendas entrará em contato com você.
@@ -15,13 +15,10 @@
                     </div>
                 </form>
             </div> -->
-            <div class="col-6 col-md">
-                <h5>Setores</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="#">Setor 1</a></li>
-                </ul>
-            </div>
-            <!-- <div class="col-6 col-md">
+         <div class="col-6 col-md">
+            <h5><a href="{{ route('setores') }}" class="text-muted text-decoration-none">Setores</a></h5>
+         </div>
+         <!-- <div class="col-6 col-md">
                 <h5>Serviços</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none" href="#">Serviço 1</a></li>
@@ -31,37 +28,26 @@
                     <li><a class="link-secondary text-decoration-none" href="#">Serviço 5</a></li>
                 </ul>
             </div> -->
-            <div class="col-6 col-md">
-                <h5>Produtos</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="https://app.salsify.com/catalogs/cb45e478-5008-4808-bc89-6b26cfadaf95/products?filter=%3D&page=1" target="_blank">Produtos</a></li>
-                </ul>
-            </div>
-            <!-- <div class="col-6 col-md">
+         <div class="col-6 col-md">
+            <h5><a href="" class="text-muted text-decoration-none">Produtos</a></h5>
+         </div>
+         <!-- <div class="col-6 col-md">
                 <h5>Parceiros</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="link-secondary text-decoration-none" href="#">Parceiro</a></li>
             </div> -->
-            <div class="col-6 col-md">
-                <h5>Quem somos</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="{{ route('quem-somos') }}">Quem somos</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Contato</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="#">Contato</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Blog</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="link-secondary text-decoration-none" href="#">Blog</a></li>
-                </ul>
-            </div>
-        </div>
-    </footer>
+         <div class="col-6 col-md">
+            <h5><a class="text-muted text-decoration-none" href="{{ route('quem-somos') }}">Quem somos</a></h5>
+         </div>
+         <div class="col-6 col-md">
+            <h5><a href="{{ route('contato') }}" class="text-muted text-decoration-none">Contato</a></h5>
+         </div>
+      </div>
+      <hr class="mt-4 opacity-25">
+      <p class="text-muted text-center opacity-25">
+         Desenvolvido por <a href="https://www.linkedin.com/in/gabriel-bianchi-britto/" target="_blank" class="text-decoration-none text-dark">Gabriel Britto <i class="bi bi-linkedin"></i></a>.
+      </p>
+   </footer>
 </div>
 
 <script defer src="../assets/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"></script>
