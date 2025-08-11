@@ -361,8 +361,8 @@
    <div class="container d-flex justify-content-between align-items-center flex-wrap">
       <!-- Contatos (escondido no mobile) -->
       <div class="d-none d-md-flex flex-wrap gap-3">
-         <span><i class="bi bi-telephone"></i> (99) 99999-9999</span>
-         <span><i class="bi bi-whatsapp"></i> (99) 99999-9999</span>
+         <!-- <span><i class="bi bi-telephone"></i> (99) 99999-9999</span>
+         <span><i class="bi bi-whatsapp"></i> (99) 99999-9999</span> -->
          <span><i class="bi bi-envelope"></i> rh@suprinova.com.br</span>
       </div>
 
